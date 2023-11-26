@@ -189,8 +189,9 @@ const getLinkChain = (groupId) => {
     return [];
   }
 
-  chain.reverse();
-  return chain;
+  const displayChain = [...chain];
+  displayChain.reverse();
+  return displayChain;
 };
 
 module.exports = {

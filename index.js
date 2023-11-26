@@ -56,3 +56,6 @@ console.log(a);
 
 const b = cardLinksService.getLinkChain(creditCard2.id);
 console.log(b);
+
+const c = cardLinksService.getLinkChain(creditCard2.id);
+console.log(c);

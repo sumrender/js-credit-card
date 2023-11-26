@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0090" tests="23" failures="1">
-  <testsuite name="Root Suite" timestamp="2023-11-26T08:49:52" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0050" tests="23" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-11-26T10:04:26" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Card linking tests" timestamp="2023-11-26T08:49:52" tests="23" file="D:\Repositories\js-cred\test\test.js" time="0.0090" failures="1">
+  <testsuite name="Card linking tests" timestamp="2023-11-26T10:04:26" tests="23" file="D:\Repositories\js-cred\test\test.js" time="0.0050" failures="0">
     <testcase name="Card linking tests Test add single credit card" time="0.0010" classname="Test add single credit card">
     </testcase>
-    <testcase name="Card linking tests Test adding two different cards" time="0.0000" classname="Test adding two different cards">
+    <testcase name="Card linking tests Test adding two different cards" time="0.0010" classname="Test adding two different cards">
     </testcase>
     <testcase name="Card linking tests Test adding the same card again" time="0.0000" classname="Test adding the same card again">
     </testcase>
     <testcase name="Card linking tests Test adding duplicate card ids" time="0.0000" classname="Test adding duplicate card ids">
     </testcase>
-    <testcase name="Card linking tests Test adding duplicate card numbers" time="0.0010" classname="Test adding duplicate card numbers">
+    <testcase name="Card linking tests Test adding duplicate card numbers" time="0.0000" classname="Test adding duplicate card numbers">
     </testcase>
     <testcase name="Card linking tests Test linking cards with same issuer" time="0.0000" classname="Test linking cards with same issuer">
     </testcase>
-    <testcase name="Card linking tests Test linking cards with different issuer" time="0.0010" classname="Test linking cards with different issuer">
+    <testcase name="Card linking tests Test linking cards with different issuer" time="0.0000" classname="Test linking cards with different issuer">
     </testcase>
     <testcase name="Card linking tests Test linking three cards with same issuer" time="0.0000" classname="Test linking three cards with same issuer">
     </testcase>
     <testcase name="Card linking tests Test linking three cards, one valid - one invalid" time="0.0000" classname="Test linking three cards, one valid - one invalid">
     </testcase>
-    <testcase name="Card linking tests Test linking four cards, 2 valid - 1 invalid" time="0.0010" classname="Test linking four cards, 2 valid - 1 invalid">
+    <testcase name="Card linking tests Test linking four cards, 2 valid - 1 invalid" time="0.0000" classname="Test linking four cards, 2 valid - 1 invalid">
     </testcase>
     <testcase name="Card linking tests Test de linking card" time="0.0000" classname="Test de linking card">
     </testcase>
@@ -29,9 +29,9 @@
     </testcase>
     <testcase name="Card linking tests Test de linking with no existing links" time="0.0000" classname="Test de linking with no existing links">
     </testcase>
-    <testcase name="Card linking tests Test de linking with three cards" time="0.0010" classname="Test de linking with three cards">
+    <testcase name="Card linking tests Test de linking with three cards" time="0.0000" classname="Test de linking with three cards">
     </testcase>
-    <testcase name="Card linking tests Test de linking all three cards" time="0.0000" classname="Test de linking all three cards">
+    <testcase name="Card linking tests Test de linking all three cards" time="0.0010" classname="Test de linking all three cards">
     </testcase>
     <testcase name="Card linking tests Test card link swap" time="0.0000" classname="Test card link swap">
     </testcase>
@@ -39,7 +39,7 @@
     </testcase>
     <testcase name="Card linking tests Test swap with no linked card" time="0.0000" classname="Test swap with no linked card">
     </testcase>
-    <testcase name="Card linking tests Test link chain for no linked card" time="0.0010" classname="Test link chain for no linked card">
+    <testcase name="Card linking tests Test link chain for no linked card" time="0.0000" classname="Test link chain for no linked card">
     </testcase>
     <testcase name="Card linking tests Test get link chain for two cards" time="0.0000" classname="Test get link chain for two cards">
     </testcase>
@@ -47,10 +47,7 @@
     </testcase>
     <testcase name="Card linking tests Test get link chain for linked and swapped cards" time="0.0000" classname="Test get link chain for linked and swapped cards">
     </testcase>
-    <testcase name="Card linking tests Test get link chain for linked, delinked and swapped cards" time="0.0020" classname="Test get link chain for linked, delinked and swapped cards">
-      <failure message="expected [] to deeply equal [ CardLink{ …(4) }, …(2) ]" type="AssertionError"><![CDATA[AssertionError: expected [] to deeply equal [ CardLink{ …(4) }, …(2) ]
-    at Context.<anonymous> (test\test.js:352:65)
-    at processImmediate (internal/timers.js:464:21)]]></failure>
+    <testcase name="Card linking tests Test get link chain for linked, delinked and swapped cards" time="0.0010" classname="Test get link chain for linked, delinked and swapped cards">
     </testcase>
   </testsuite>
 </testsuites>
